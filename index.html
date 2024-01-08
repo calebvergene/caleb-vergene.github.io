@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calebs Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <style>
+        body {
+            opacity: 0;
+            background-color: rgb(12, 12, 12); 
+            color: white;
+            transition: opacity 1s ease-in-out, background-color 2s ease-in-out;
+        }
+    </style>
+    <script>
+        setTimeout(function() {
+            document.body.style.backgroundColor = "#35383A"; 
+            }, 1000);
+    </script>
+    <script src="https://kit.fontawesome.com/b188b551c0.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text move-up">
+                <h2>Hey! I'm</h2>
+                <h1 id="header-name" class="color-change move-up1"><span>Caleb Vergene,</span></h1>
+                <p class="move-up2"> an aspiring software engineer.</p>
+            </div>
+        </div>
+    </div>
+
+<!---- -------------- projects ---------------- -->
+    <di id="projects">
+        <div class="container">
+            <div class="projects-text">
+                <h1 class="heading color-change">Projects.</h1>
+                <h3 class="projects-title move-up3">TikTok for Business</h3>
+                <div class="projects-skills">
+                    <div class="skills-box move-up">Back-End Development</div>
+                    <div class="skills-box move-up1">Marketing</div>
+                    <div class="skills-box move-up2">Business Strategy</div>
+                </div>
+                <div class="project-description move-up3">
+                    Created over 400 video ad campaigns used by 170 major corporations (such as Fortnite, Voodoo, Tinder, etc...) 
+                    making over $60,000 in personal profit and gaining exposure for my TikTok platform of over 160,000 followers.
+                </div>
+                <div class="project-content move-up1">
+                    <div class="tiktok-scraper">
+                        <a href="https://github.com/calebvergene/TikTok-Mass-Video-Download/blob/main/tiktok_scraper.py" target="_blank">
+                            <button class="resume-button" id="scraper-button">TikTok Scraper <span class="arrow">❐</span></button>
+                        </a>
+                        <div class="scraper-description">
+                            Created a Python script searching for trending TikTok meme creators in the niche, downloading their 25 most recent videos, 
+                            removing the watermark and cropping the video.
+                        </div>
+                    </div>
+                    <div class="tiktok-content">
+                        <div class="tiktok-followers">
+                            <img src="images/IMG_2373.jpg">
+                            <div class="tiktok-content-description">
+                                TikTok Page, gained 167k followers and 28.3M likes from publicizing viral content. 
+                            </div>
+                        </div>
+                        <div class="full-tiktok-portfolio">
+                            <a href="images/TikTok For Business Portfolio copy.pdf" target="_blank">
+                                <button class="resume-button" id="tiktok-portfolio-button">TikTok Ad Portfolio <span class="arrow">➜</span></button>
+                            </a>
+                        </div>
+                        <div class="tiktok-ad">
+                            <img src="images/IMG_2427.JPG">
+                            <div class="tiktok-content-description">
+                                Created 461 ads for 170 companies, generating millions of dollars in revenue.  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="projects-title move-up3">Web Development Freelancing</h3>
+                <div class="projects-skills">
+                    <div class="skills-box move-up">Responsive Graphics</div>
+                    <div class="skills-box move-up1">React</div>
+                    <div class="skills-box move-up2">HTML/CSS/JavaScript</div>
+                </div>
+                <div class="project-description move-up3">
+                    Built customized websites for different companies, coding to create user-friendly, visually appealing, and functional online platforms.
+                </div>
+            </div>
+            <div class="project-image">
+                <img id="aikens-image" src="images/aikens-image2.png">
+            </div>
+        </div>
+    </div>
+
+    <!---- -------------- about ---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1 move-up1">
+                    <img src="images/profile-picture.jpg" id="about-picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="move-up">About Me</h1>
+                    <p class="move-up1" id="about-bio">Hello again! I'm currently pursuing Computer Science at the University of California, Irvine (UCI). My fervor for problem-solving and the boundless possibilities of technology drive my passion to <strong>create</strong> and <strong>innovate</strong>.
+                    </p>
+                    <p class="move-up2" id="about-bio">Other than coding, I spend most of my free time either in the gym, watching Youtube, or with my friends. 😸  I've also been trying to read more so feel free to reach out to me with any book recommendations!
+                    </p>
+                    <div class="tab-contents move-up2" id="Resume">
+                        <a href="images/Caleb-Vergene-Resume-copy.pdf" target="_blank">
+                            <button class="resume-button">View Resume <span class="arrow">➜</span></button>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---- -------------- contact ---------------- -->
+    <section id="Contact">
+            <p>Scrolled This Far Down?</p>
+            <h2>Let's Chat</h2>
+            <div class="contact-buttons">
+                <a href="https://www.linkedin.com/in/calebvergene/" target="_blank" class="contact-btn linkedin"><i class="fa-brands fa-linkedin fa-xl floating-element"></i></a>
+                <a href="mailto:calebverg@gmail.com" class="contact-btn email"><i class="fa-solid fa-envelope fa-xl floating-element2" ></i></a>
+                <a href="https://github.com/calebvergene" target="_blank" class="contact-btn github"><i class="fa-brands fa-github fa-xl floating-element1"></i></a>
+            </div>
+    </section>
+
+    <div class="footer">
+        <p>© 2024 Caleb Vergene</p>
+    </div>
+    
+    
+
+</body>
+</html>
